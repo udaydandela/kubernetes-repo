@@ -22,7 +22,7 @@ resource "aws_subnet" "udaykuber01_subnet" {
   }
 }
 
-resource "aws_internet_gateway" "uday-kuber01_igw" {
+resource "aws_internet_gateway" "udaykuber01_igw" {
   vpc_id = aws_vpc.udaykuber01_vpc.id
 
   tags = {
